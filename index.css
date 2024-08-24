@@ -20,18 +20,22 @@
 .main-section {
     flex-grow: 1;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .main-section-container {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .main-section-content {
-    padding-top: 90px;
+    padding-top: 30px;
     padding-bottom: 30px;
     flex: 6;
-    position: relative; /* so that it goes on top of the image */
+    position: relative;
+    /* so that it goes on top of the image */
 }
 
 .main-section-img-wrapper {

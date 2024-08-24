@@ -148,12 +148,6 @@ body {
     margin-inline: auto;
 }
 
-.d-flex-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-}
-
 .primary-btn {
     background-color: var(--orange);
     color: var(--bg-main-color);
@@ -221,20 +215,12 @@ body {
     margin-bottom: 20px;
 }
 
-.mb-40px {
-    margin-bottom: 40px;
-}
-
 .mb-60px {
     margin-bottom: 60px;
 }
 
-.mt-80px {
+.footer-mt {
     margin-top: 80px;
-}
-
-.line-height-50px {
-    line-height: 50px;
 }
 
 .text-align-justify {
@@ -245,7 +231,30 @@ body {
     overflow: hidden;
 }
 
-@media (max-width: 550px) {
+@media (max-width:920px) {
+
+    .section,
+    .navbar,
+    .contact-details-section {
+        padding-inline: 2.2rem;
+    }
+
+    :root {
+        --medium-text: 1.2rem;
+        --small-text: 0.8rem;
+    }
+
+    .footer-mt {
+        margin-top: 55px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    :root {
+        --medium-text: 1rem;
+    }
+
     .section,
     .navbar,
     .contact-details-section {

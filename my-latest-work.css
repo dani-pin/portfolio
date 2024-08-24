@@ -49,3 +49,87 @@
     color: var(--orange);
     font-size: 1.8rem;
 }
+
+.stefanos-business-case {
+    line-height: 50px;
+}
+
+.stefanos-business-case-paragraph {
+    margin-bottom: 30px;
+}
+
+.stefanos-business-case-general-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 30px;
+}
+
+@media (max-width:920px) {
+
+    .my-story-section p,
+    .stefanos-business-case {
+        line-height: 36px;
+    }
+
+    .stefanos-business-case-paragraph {
+        margin-bottom: 20px;
+    }
+
+    .my-work-showcase-section {
+        padding-bottom: 40px;
+    }
+
+    .visit-website-link {
+        font-size: 1.5rem;
+    }
+
+    .my-work-section-title {
+        font-size: 4.30rem;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .my-work-section-title {
+        font-size: 3.5rem;
+    }
+
+    .visit-website-link {
+        font-size: 1.2rem;
+    }
+
+    .my-story-section p,
+    .stefanos-business-case {
+        line-height: 30px;
+    }
+
+    .my-work-showcase-section {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .my-work-section-title {
+        font-size: 2.8rem;
+    }
+
+    .stefanos-business-case-general-info {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .visit-website-link-wrapper {
+        order: -1;
+    }
+
+}
+
+
+@media (max-width: 340px) {
+    .my-work-section-title {
+        font-size: 2rem;
+    }
+
+}

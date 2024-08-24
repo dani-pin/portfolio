@@ -163,6 +163,17 @@
     }
 }
 
+@media (max-width:920px) {
+    .my-story-section p {
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .my-story-section {
+        margin-top: 30px;
+    }
+}
+
 @media (max-width: 890px) {
 
     .palm-tree-two,
@@ -206,9 +217,19 @@
         left: -80px;
         top: 540px;
     }
-
 }
 
+@media (max-width: 650px) {
+
+    .my-story-section p,
+    .stefanos-business-case {
+        line-height: 30px;
+    }
+
+    .my-story-section {
+        margin-top: 20px;
+    }
+}
 
 @media (max-width: 640px) {
     .big-ben {

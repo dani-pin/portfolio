@@ -67,7 +67,6 @@
 
 @media (max-width:920px) {
 
-    .my-story-section p,
     .stefanos-business-case {
         line-height: 36px;
     }
@@ -100,7 +99,6 @@
         font-size: 1.2rem;
     }
 
-    .my-story-section p,
     .stefanos-business-case {
         line-height: 30px;
     }
@@ -128,8 +126,17 @@
 
 
 @media (max-width: 340px) {
+
+    .visit-website-link {
+        font-size: 1rem;
+    }
+
     .my-work-section-title {
         font-size: 2rem;
+    }
+
+    .stefanos-business-case {
+        line-height: 25px;
     }
 
 }

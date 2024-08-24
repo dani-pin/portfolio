@@ -59,8 +59,8 @@
 .guacamaya {
     position: absolute;
     height: 142px;
-    right: 790px;
     left: 590px;
+    top: 158px;
 }
 
 .bird {
@@ -120,4 +120,168 @@
     line-height: 50px;
     text-align: center;
     margin-bottom: 40px;
+}
+
+@media (max-width: 1520px) {
+
+    .bird,
+    .guacamaya {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1343px) {
+
+    .telephone-cabin,
+    .palm-tree-one {
+        display: none;
+    }
+
+    .colombian-hat {
+        top: 650px;
+        right: 260px;
+    }
+
+    .palm-tree-two {
+        right: 261.41px;
+        top: 250px;
+    }
+
+    .bird {
+        display: block;
+    }
+
+    .daniela {
+        height: 735px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .guacamaya {
+        display: block
+    }
+}
+
+@media (max-width: 890px) {
+
+    .palm-tree-two,
+    .colombian-hat,
+    .big-ben,
+    .computer {
+        display: none;
+    }
+
+    .coffee-beans {
+        right: -8px;
+    }
+
+    .cartagena {
+        height: 480px;
+    }
+
+    .daniela {
+        height: 690px;
+    }
+
+    .coffee-beans {
+        height: 250px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .bird {
+        left: 20px;
+        top: 187px;
+    }
+
+    .guacamaya {
+        right: 0;
+        top: 100px;
+        height: 100px;
+    }
+
+    .bus {
+        left: -80px;
+        top: 540px;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+    .big-ben {
+        display: block;
+        left: 400px;
+
+    }
+
+    .orchid,
+    .coffee-beans {
+        z-index: 2;
+    }
+
+
+}
+
+@media (max-width: 585px) {
+    .cartagena {
+        left: 0;
+        top: 0;
+    }
+
+    .bird {
+        display: none;
+    }
+
+    .coffee-beans {
+        height: 200px;
+        top: 625px;
+    }
+
+    .harrogate {
+        left: -8px;
+    }
+
+    .bus {
+        display: none;
+    }
+
+    .computer {
+        display: block;
+        left: 0px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        height: 200px;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .big-ben,
+    .orchid,
+    .colombian-flag {
+        display: none;
+    }
+
+    .harrogate {
+        left: 0px;
+    }
+
+    .computer {
+        left: -80px;
+    }
+
+    .coffee-beans {
+        height: 150px;
+    }
+
+
+}
+
+@media (max-width: 385px) {
+    .daniela {
+        height: 650px;
+    }
 }

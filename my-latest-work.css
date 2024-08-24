@@ -1,0 +1,51 @@
+.my-work-showcase-section {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+}
+
+.my-work-section-title {
+    font-size: var(--h2);
+    font-family: var(--font-headings);
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.computer-my-work-section {
+    display: block;
+    width: 100%;
+}
+
+.computer-wrapper {
+    position: relative;
+    max-width: 910px;
+    margin-inline: auto;
+}
+
+.computer-frame {
+    position: absolute;
+    left: 10%;
+    top: 5.3%;
+    width: 80.2%;
+    height: 73.9%;
+    overflow-y: hidden;
+    border-radius: 4px;
+}
+
+.computer-frame-inner {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.computer-frame-img {
+    display: block;
+    width: 100%;
+}
+
+.visit-website-link {
+    text-decoration: none;
+    color: var(--orange);
+    font-size: 1.8rem;
+}

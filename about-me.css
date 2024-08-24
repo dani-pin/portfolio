@@ -1,0 +1,123 @@
+.parallax {
+    position: relative;
+    padding-top: 156px;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.daniela {
+    display: block;
+    z-index: 10;
+    height: 803px;
+    padding-left: 80px;
+}
+
+.cartagena {
+    position: absolute;
+    height: 449px;
+    right: -2px;
+    top: 171px;
+}
+
+.coffee-beans {
+    position: absolute;
+    height: 278px;
+    right: -16px;
+    top: 554px;
+    z-index: 2;
+}
+
+.colombian-flag {
+    position: absolute;
+    height: 269px;
+    right: 123px;
+    top: 0;
+}
+
+.palm-tree-one {
+    position: absolute;
+    height: 613px;
+    right: 390.41px;
+    top: 204px;
+}
+
+.palm-tree-two {
+    position: absolute;
+    height: 613px;
+    right: 241.41px;
+    top: 300px;
+}
+
+.orchid {
+    position: absolute;
+    height: 303px;
+    right: 0;
+    top: 163px
+}
+
+.guacamaya {
+    position: absolute;
+    height: 142px;
+    right: 790px;
+    left: 590px;
+}
+
+.bird {
+    position: absolute;
+    height: 166px;
+    right: 590px;
+    top: 66px;
+}
+
+.harrogate {
+    position: absolute;
+    height: 558px;
+    left: -5px;
+    top: 87px;
+}
+
+.big-ben {
+    position: absolute;
+    height: 558px;
+    left: 381px;
+    top: 155px
+}
+
+.telephone-cabin {
+    position: absolute;
+    height: 302px;
+    left: 545px;
+    top: 460px;
+}
+
+.bus {
+    position: absolute;
+    height: 209px;
+    left: 0px;
+    top: 540px;
+}
+
+.computer {
+    position: absolute;
+    height: 269px;
+    left: 199px;
+    top: 578px;
+}
+
+.colombian-hat {
+    position: absolute;
+    height: 197PX;
+    right: 300px;
+    top: 650px;
+}
+
+.my-story-section {
+    margin-top: 50px;
+}
+
+.my-story-section p {
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}

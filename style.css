@@ -30,14 +30,22 @@ body {
     color: var(--dark-blue);
 }
 
-.navbar {
-    margin-top: 30px;
-}
-
 .section,
 .navbar,
 .contact-details-section {
     padding-inline: 3.75rem;
+}
+
+.navbar {
+    margin-top: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-logo {
@@ -45,6 +53,12 @@ body {
     cursor: pointer;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.44rem;
+}
 
 .nav-link {
     text-decoration: none;
@@ -52,25 +66,86 @@ body {
     color: var(--dark-blue);
     font-size: var(--small-text);
     border-bottom: transparent solid 1px;
+    text-align: center;
 }
 
 .nav-link:hover {
     color: var(--orange);
 }
 
-.nav-link:nth-child(even) {
-    margin-inline: 2.44rem
+.nav-element {
+    text-align: center;
+}
+
+.nav-btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hamburger {
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.hamburger svg {
+    display: block;
+}
+
+.nav-close {
+    display: none;
+}
+
+@media (min-width: 991px) {
+    .nav-hamburger {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: var(--bg-main-color);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 2rem;
+        transform: translateX(-100%);
+    }
+
+    .nav-links.show {
+        transform: translateX(0);
+        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .nav-link, .nav-element {
+        padding-block: 1rem;
+        padding-inline: 3rem;
+    }
+
+    .nav-close {
+        display: block;
+        position: absolute;
+        top: 42.5px;
+        right: 3.75rem;
+        width: 50px;
+        padding: 10px;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
 }
 
 .container {
     max-width: 1330px;
     margin-inline: auto;
-}
-
-.d-flex-center {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .d-flex-top {
@@ -164,6 +239,10 @@ body {
 
 .text-align-justify {
     text-align: justify;
+}
+
+.overflow-hidden {
+    overflow: hidden;
 }
 
 @media (max-width: 550px) {

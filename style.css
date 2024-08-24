@@ -260,4 +260,24 @@ body {
     .contact-details-section {
         padding-inline: 1rem;
     }
+
+    .footer-mt {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 320px) {
+    :root {
+        --small-text: 0.7rem;
+    }
+
+    .section,
+    .navbar,
+    .contact-details-section {
+        padding-inline: 0.8rem;
+    }
+
+    .footer-mt {
+        margin-top: 40px;
+    }
 }

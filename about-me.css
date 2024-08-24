@@ -221,8 +221,7 @@
 
 @media (max-width: 650px) {
 
-    .my-story-section p,
-    .stefanos-business-case {
+    .my-story-section p {
         line-height: 30px;
     }
 
@@ -305,4 +304,16 @@
     .daniela {
         height: 650px;
     }
+}
+
+
+@media (max-width: 340px) {
+    .my-story-section p {
+        line-height: 25px;
+    }
+
+    .daniela {
+        height: 600px;
+    }
+
 }

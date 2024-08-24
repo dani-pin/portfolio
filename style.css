@@ -5,8 +5,9 @@
     --ligth-orange: #F2B69B;
     --hover-light-orange: #EB8F6D;
     --black: #000000;
-    --small-text: 1.1rem;
+    --small-text: 1.2rem;
     --medium-text: 1.5rem;
+    --nav-font: 1.2rem;
     --h1: 8.44rem;
     --h2: 5.31rem;
     --font-headings: "dm serif display", serif
@@ -64,7 +65,7 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: var(--dark-blue);
-    font-size: var(--small-text);
+    font-size: var(--nav-font);
     border-bottom: transparent solid 1px;
     text-align: center;
 }
@@ -190,7 +191,7 @@ body {
     border: var(--orange) solid 2px;
     padding: 15px 20px;
     border-radius: 20px;
-    font-size: var(--small-text);
+    font-size: var(--nav-font);
     cursor: pointer;
 }
 
@@ -263,7 +264,7 @@ body {
 
     :root {
         --medium-text: 1.2rem;
-        --small-text: 0.8rem;
+        --small-text: 0.95rem;
     }
 
     .footer-mt {
@@ -298,7 +299,7 @@ body {
 
 @media (max-width: 320px) {
     :root {
-        --small-text: 0.7rem;
+        --small-text: 0.7 5rem;
     }
 
     .section,

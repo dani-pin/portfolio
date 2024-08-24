@@ -89,6 +89,7 @@ body {
     cursor: pointer;
     background: none;
     border: none;
+    color: var(--dark-blue);
 }
 
 .hamburger svg {

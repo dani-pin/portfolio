@@ -43,6 +43,13 @@
     flex: 4;
     margin-right: -100px;
     margin-left: -100px;
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.fade-up {
+    transform: translateY(100px);
+    opacity: 0;
 }
 
 @media (max-width: 1224px) {

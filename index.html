@@ -57,22 +57,23 @@
             <div class="container main-section-container">
 
                 <div class="main-section-content">
-                    <p class="mb-20px">Hi, my name is Daniela and I'm a freelance</p>
+                    <p class="mb-20px fade-up">Hi, my name is Daniela and I'm a freelance</p>
                     <h1 class="home-title">
-                        <span class="web-designer-title">
+                        <div class="fade-up">
                             Web Designer
-                        </span>
-                        <br>
-                        <span class="web-developer-title">
+                        </div>
+                        <div class="web-developer-title fade-up">
                             & Developer
-                        </span>
+                        </div>
                     </h1>
-                    <p class="mt-20px mb-60px">based in Harrogate, UK</p>
-                    <a href="mailto:danielapinzonguzman@gmail.com?subject=Web Services Inquiry">
-                        <button class="primary-btn">
-                            Let's Work Together
-                        </button>
-                    </a>
+                    <p class="mt-20px mb-60px fade-up">based in Harrogate, UK</p>
+                    <div class="fade-up">
+                        <a href="mailto:danielapinzonguzman@gmail.com?subject=Web Services Inquiry">
+                            <button class="primary-btn">
+                                Let's Work Together
+                            </button>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="main-section-img-wrapper">
@@ -93,6 +94,27 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const tl = gsap.timeline()
+
+            tl.from('.fade-up', {
+                y: 100,
+                opacity: 0,
+                duration: 1.7,
+                stagger: 0.3,
+                ease: 'power2.out',
+            })
+
+            tl.from('.main-section-img-wrapper', {
+                x: 100,
+                opacity: 0,
+                duration: 1.7,
+                ease: 'power2.out',
+            }, '-=1.7')
+        });
+    </script>
     <script src="./main.js"></script>
 </body>
 
